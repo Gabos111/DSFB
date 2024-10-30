@@ -76,3 +76,6 @@ Open the check_labeled_image notebook. Choose the image you want to check and ch
 
 _Note: the code in this notebook assume that you have a folder called 'result' with the labeled images created using the instruction above and a folder called 'images' with the original images (before labeling)._
 
+### How to Analyse Labeling Results
+
+You can find a notebook called 'analysis' which provide analysis about charcater distributions and character positions among the images. 
