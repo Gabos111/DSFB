@@ -1,0 +1,6 @@
+     pillow
+     tkinter
+     pandas
+     matplotlib
+     seaborn
+     numpy

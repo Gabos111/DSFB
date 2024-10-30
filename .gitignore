@@ -1,11 +1,13 @@
-# Folder with Billets :
+# Folders :
 New_Billets/
 New_Billets/*
+result/*
 result/
 Total_res/
 Total_res/*
-annotation.csv
+annotations.csv
 repartition/*
+annotations_results.csv
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
