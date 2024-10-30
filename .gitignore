@@ -1,5 +1,11 @@
 # Folder with Billets :
 New_Billets/
+New_Billets/*
+result/
+Total_res/
+Total_res/*
+annotation.csv
+repartition/*
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
