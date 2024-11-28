@@ -11,6 +11,8 @@ annotations_results.csv
 Character_Images/
 Character_Images/*
 Labels.txt
+Categorized_Character_images/
+Categorized_Character_images/*
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
