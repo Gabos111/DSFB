@@ -13,7 +13,8 @@ Character_Images/*
 Labels.txt
 Categorized_Character_images/
 Categorized_Character_images/*
-
+Augmented_Character_Images/
+Augmented_Character_Images/*
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
