@@ -25,7 +25,7 @@ def create_simple_lenet(input_shape=(64, 32, 3), num_classes=13):
 
     # Layer 1: Convolution + Activation + Pooling
     model.add(Conv2D(6, kernel_size=(5, 5), strides=1, padding='same', input_shape=input_shape))
-    model.add(Activation('tanh'))  # Original LeNet uses tanh activation
+    model.add(Activation('tanh'))  
     model.add(MaxPooling2D(pool_size=(2, 2), strides=2))
 
     # Layer 2: Convolution + Activation + Pooling
