@@ -1,11 +1,6 @@
 # Data Science for Business - Group Project
-
-## Data Labeling
-
-### How to Use the Image Annotation Tool
-
-The following steps will guide you through using the GUI-based Image Annotation Tool for labeling images of digits.
-
+---
+---
 #### Setup
 
 1. Make sure you have **Python 3.8 or higher** installed along with the necessary libraries:
@@ -27,6 +22,37 @@ The following steps will guide you through using the GUI-based Image Annotation 
      !pip install pillow
      !pip install tkinter
      ```
+---
+---
+## Model Training Guide
+
+### Steps to Train the OCR Model
+
+1. Open the **OCR Final.ipynb** file in Jupyter Notebook or any compatible IDE.
+2. Update the paths for:
+   - `images_folder`: The directory containing your labeled images.
+   - `labels_file`: The file mapping image filenames to their respective labels.
+3. Run all cells sequentially. The notebook should execute without errors if the dataset is correctly set up.
+4. Once training is complete, enjoy your high-performance OCR model!
+
+### Pre-Trained Models
+
+If you'd like to skip the training process, you can use one of our pre-trained models:
+- **`retrained_Augmented_LeNet_2.keras`**: Provides the best balance between accuracy, size, and execution time.
+- **`retrained_Adapted_AlexNet.keras`**: Achieves the highest accuracy overall.
+
+Simply load these models into your project to start using them immediately.
+---
+---
+## Data Labeling
+
+### How to Use the Image Annotation Tool
+
+The following steps will guide you through using the GUI-based Image Annotation Tool for labeling images of digits.
+
+#### Setup
+
+1. Make sure the setup was done correctly 
 
 2. To launch the tool, simply run the provided script.
 
